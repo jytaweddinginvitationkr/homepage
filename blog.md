@@ -1,7 +1,7 @@
 ---
 layout: blog
 permalink: /blog/
-title: Rohit Jain | Blog
+title: Junyoung + Thuc Anh | Blog
 pagination:
   enabled: true
 ---
