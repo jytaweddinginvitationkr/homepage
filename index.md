@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: we are the perfect match!
+home_text: request the pleasure of your company to celebrate their marriage
 title: Junyoung + Thuc Anh
 ---
