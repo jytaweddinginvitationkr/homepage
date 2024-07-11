@@ -1,7 +1,7 @@
 ---
 layout: description
-title: Gallery
-permalink: /gallery/
+title: About
+permalink: /about/
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
