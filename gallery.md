@@ -1,6 +1,6 @@
 ---
 layout: description
-title: blog
+title: Gallery
 permalink: /gallery/
 ---
 
