@@ -1,30 +1,43 @@
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.btn.an_btn').forEach(function(button) {
-        button.addEventListener('click', function(event) {
-            event.preventDefault();
-            var idx = this.getAttribute('data-idx');
-            document.querySelectorAll('.account_pop').forEach(function(pop) {
-                if (pop.getAttribute('data-idx') === idx) {
-                    pop.style.display = 'block';
-                } else {
-                    pop.style.display = 'none';
-                }
-            });
-        });
-    });
+document.addEventListener('DOMContentLoaded', function () {
+  const groomBtn = document.querySelector('.btn.groom');
+  const brideBtn = document.querySelector('.btn.bride');
+  const closeButtons = document.querySelectorAll('.btn.close');
+  const popMasks = document.querySelectorAll('.pop_mask');
 
-    document.querySelectorAll('.btn.close').forEach(function(button) {
-        button.addEventListener('click', function(event) {
-            event.preventDefault();
-            this.closest('.account_pop').style.display = 'none';
-        });
-    });
+  function showPopup(idx) {
+    const popup = document.querySelector(`.account_pop[data-idx="${idx}"]`);
+    if (popup) {
+      popup.style.display = 'flex';
+    }
+  }
 
-    document.querySelectorAll('.pop_mask').forEach(function(mask) {
-        mask.addEventListener('click', function() {
-            this.closest('.account_pop').style.display = 'none';
-        });
+  function hidePopups() {
+    const popups = document.querySelectorAll('.account_pop');
+    popups.forEach(popup => {
+      popup.style.display = 'none';
     });
+  }
+
+  groomBtn.addEventListener('click', function (e) {
+    e.preventDefault();
+    showPopup(1);
+  });
+
+  brideBtn.addEventListener('click', function (e) {
+    e.preventDefault();
+    showPopup(2);
+  });
+
+  closeButtons.forEach(btn => {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      hidePopups();
+    });
+  });
+
+  popMasks.forEach(mask => {
+    mask.addEventListener('click', function () {
+      hidePopups();
+    });
+  });
 });
-</script>
