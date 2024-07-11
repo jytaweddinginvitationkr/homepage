@@ -1,5 +1,5 @@
 ---
-layout: description
+layout: location
 permalink: /location/
 title: Junyoung + Thuc Anh | location
 pagination:
