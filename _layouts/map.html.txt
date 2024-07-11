@@ -1,0 +1,65 @@
+---
+layout: description
+title: Blog
+pagetype: blog
+---
+<!-- This loops through the paginated posts -->
+
+<div class="row">
+  <div class="col-sm-7 col-12">
+    <div class="singe-page-content-contact--information--map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2953513579846!2d106.68328211457187!3d10.788676061918153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f2d1f5cd9e7%3A0xd2284b6940329fcf!2sLa%20Vela%20Saigon%20Hotel!5e0!3m2!1svi!2s!4v1668268618813!5m2!1svi!2s"
+        width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+  <div class="col-sm-5 col-12">
+    <div class="singe-page-content-contact--information--info">
+      <div class="singe-page-content-contact--information--info--name">LA VELA SAIGON HOTEL</div>
+      <div class="singe-page-content-contact--information--info--content">
+        <div class="singe-page-content-contact--information--info--content-phone">+84 (0) 28 3622 2280</div>
+        <div class="singe-page-content-contact--information--info--content-email">lavelahotel@lavelasaigon.com</div>
+        <div class="singe-page-content-contact--information--info--content-address">280 Nam Ky Khoi Nghia, Ward 8, Dist 3, Ho Chi Minh City, Vietnam</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if paginator.total_posts == 0 %}
+    <p>No posts right now.</p>
+{% else %}
+<div class="blogPage-categoryList">
+    <ul>
+    <li><a href="{{ "/categories/" | relative_url }}">Categories</a> : </li>
+    {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <li><a href="{{"/categories/#" | append: category_name | relative_url}}">{{category_name}}</a></li>
+    {% endfor %}
+</ul>
+</div>
+<ul class="blog-list">
+    {% for post in paginator.posts %}
+        <li>
+            <a class="blog-heading" href="{{ post.url | relative_url }}">{{ post.title }}</a><span class="date">{{ post.date | date_to_string }}</span>
+            <div class="excerpt">{{ post.excerpt }}</div>
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<hr>
+{% if paginator.total_pages > 1 %}
+<ul>
+
+    {% if paginator.previous_page %}
+        <li>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+        </li>
+    {% endif %}
+    {% if paginator.next_page %}
+        <li>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+        </li>
+    {% endif %}
+</ul>
+{% endif %}
