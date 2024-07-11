@@ -2,6 +2,8 @@
 layout: gallery
 title: gallery
 permalink: /gallery/
+pagination:
+  enabled: true
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
