@@ -1,7 +1,7 @@
 ---
-layout: blog
-permalink: /blog/
-title: Junyoung + Thuc Anh | Blog
+layout: map
+permalink: /map/
+title: Junyoung + Thuc Anh | map
 pagination:
   enabled: true
 ---
