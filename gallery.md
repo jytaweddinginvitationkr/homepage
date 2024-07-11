@@ -1,6 +1,6 @@
 ---
-layout: gallery
-title: gallery
+layout: description
+title: blog
 permalink: /gallery/
 pagination:
   enabled: true
