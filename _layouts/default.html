@@ -6,20 +6,20 @@
     <link rel="shortcut icon" href="{{"/favicon.ico" | relative_url }}" type="image/x-icon" />
     <link rel="dns-prefetch" href="https://{{ site.disqus.shortname }}.disqus.com">
     <meta
-    itemprop="description"
-    name="description"
-    content="
+      itemprop="description"
+      name="description"
+      content="
         {% if page.description %}
-            {{ page.description | truncate: 160 }}
+          {{ page.description | truncate: 160 }}
         {% else %}
-            {{ site.description | truncate: 160  }}
+          {{ site.description | truncate: 160  }}
         {% endif %}"
     />
     <title>
-      {%if page.title %}
-          {{ page.title }}
+      {% if page.title %}
+        {{ page.title }}
       {% else %}
-          {{ site.title }}
+        {{ site.title }}
       {% endif %}
     </title>
     <!-- async load css file -->
@@ -31,8 +31,6 @@
     <link rel="dns-prefetch" href="www.googletagmanager.com">
     <link rel="dns-prefetch" href="www.google-analytics.com">
 
-
-
     <!-- Load the script async and wait for the page to render for script to execute -->
     <script defer src="{{"/assets/js/theme.js" | relative_url }}"></script>
     <script defer src="{{"/assets/js/script.js" | relative_url }}"></script>
@@ -40,10 +38,12 @@
     {% include analytics.html %}
     {% feed_meta %}
     {% seo %}
-
   </head>
-    <body onload="onLoad()">
-      {% include themeSelector.html %}
-      {{ content }}
-    </body>
+  <body onload="onLoad()">
+    {% include themeSelector.html %}
+    {{ content }}
+
+    <!-- Include popup.js -->
+    <script src="{{ "/assets/js/popup.js" | relative_url }}"></script>
+  </body>
 </html>
