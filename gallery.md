@@ -1,6 +1,6 @@
 ---
-layout: description
-title: Gallery
+layout: gallery
+title: gallery
 permalink: /gallery/
 ---
 
