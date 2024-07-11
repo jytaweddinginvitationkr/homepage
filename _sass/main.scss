@@ -35,7 +35,7 @@ body {
   margin: auto;
   font-size: 1rem;
   @include mediaQuery(phone-width) {
-    font-size: 1rem;
+    font-size: 1.5rem;
     span {
       display: none;
     }
