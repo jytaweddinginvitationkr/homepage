@@ -1,6 +1,6 @@
 ---
 layout: description
-permalink: /map/
+permalink: /location/
 title: Junyoung + Thuc Anh | location
 pagination:
   enabled: true
