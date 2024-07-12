@@ -14,7 +14,7 @@ permalink: /location/
 >
 > [Website](https://lavelasaigon.com/)
 
-> [**GOOGLE MAP**](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2953513579846!2d106.68328211457187!3d10.788676061918153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f2d1f5cd9e7%3A0xd2284b6940329fcf!2sLa%20Vela%20Saigon%20Hotel!5e0!3m2!1svi!2s!4v1668268618813!5m2!1svi!2s)
+> [**GOOGLE MAP**](https://www.google.co.kr/maps/place/%EB%9D%BC+%EB%B2%A8%EB%9D%BC+%EC%82%AC%EC%9D%B4%EA%B3%B5+%ED%98%B8%ED%85%94/@10.7886761,106.6828959,17z/data=!3m1!4b1!4m9!3m8!1s0x31752f2d1f5cd9e7:0xd2284b6940329fcf!5m2!4m1!1i2!8m2!3d10.7886708!4d106.6854708!16s%2Fg%2F11h9kpyf0z?hl=ko&entry=ttu)
 
 
 ```js
