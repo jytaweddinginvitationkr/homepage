@@ -4,18 +4,20 @@ title: About
 permalink: /about/
 ---
 
-> Request the pleasure of your company to celeberate their marriage
-> 
-> on **Saturday 11st January, 2025**
-> 
-> at **Seven o'clock**
-> 
-> at **La Vela Saigon**
-> 
-> cutting of the cake is followed
-> 
-> dancing until late
->
-> RSVP
+<div style="text-align: center;">
+    <p>Request the pleasure of your company to celebrate their marriage</p>
+      <p></p>
+    <p>on <strong>Saturday 11st January, 2025</strong></p>
+      <p></p>
+    <p>at <strong>Seven o'clock</strong></p>
+      <p></p>
+    <p>at <strong>La Vela Saigon</strong></p>
+      <p></p>
+    <p>cutting of the cake is followed</p>
+      <p></p>
+    <p>dancing until late</p>
+      <p></p>
+    <p>RSVP</p>
+</div>
 
 * * *
