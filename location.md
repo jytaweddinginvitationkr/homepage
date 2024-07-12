@@ -1,7 +1,7 @@
 ---
 layout: description
-title: About
-permalink: /about/
+title: Location
+permalink: /location/
 ---
 
 ![Example Image](mapimage.jpeg)
