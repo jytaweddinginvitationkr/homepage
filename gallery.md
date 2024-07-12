@@ -13,7 +13,7 @@ permalink: /gallery/
                 <div class="gallery_type01">
                     <div class="skin_gallery">
                         <figure>
-                            <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                            <a href="https://cvws.icloud-content.com/S/AWpYu3zECA6QFgjw-elxypfR7WXv/249927D5-6F04-4812-A5C1-FC383F72728B.jpg?o=Ak5cxn3_Dd9AJeeNPocv6rKc8x8sFjKknLZeLEFreP7Y&v=1&z=https%3A%2F%2Fp63-content.icloud.com%3A443&x=1&a=CAogNaXs3CBl_ExQxLvJU5ljyep-T0_aM3yq7oWT44ik0BISZRCQhOmyijIYkJv8t4oyIgEAUgTR7WXvaiWYy89usWnfCYfHVZ6dxo2BIFP21ZOPqUAi1ljUcZ3UDu4a1xTuciUaxDiml9jkU_YMALYimbufueQjoBboviYdvokWxLb6z5G96gja&e=1720788651&r=7801bb7d-5bda-4d04-ab12-f0db501a4e7c-40&s=r-Xc40aRNvEMiVKiKr5vbkp7LPU" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                                 <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="Sample Image">
                             </a>
                         </figure>
