@@ -32,21 +32,21 @@ permalink: /gallery/
                 <!-- 갤러리 아이템 -->
                 <div class="gallery-item">
                     <figure>
-                        <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE" style="background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                             <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </figure>
                 </div>
                 <div class="gallery-item">
                     <figure>
-                        <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE" style="background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                             <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </figure>
                 </div>
                 <div class="gallery-item">
                     <figure>
-                        <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE" style="background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                             <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </figure>
