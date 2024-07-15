@@ -82,10 +82,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg"
-                            class="setimgsize" itemprop="contentUrl" data-size="2000x1333">
-                            <img src="0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg"
-                                class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.JPG' | relative_url }}">
+                            <img src="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.JPG' | relative_url }}" alt="">
                         </a>
                     </div>
                 </figure>
