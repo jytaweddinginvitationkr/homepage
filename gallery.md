@@ -4,22 +4,55 @@ title: Gallery
 permalink: /gallery/
 ---
 
+<style>
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery-item {
+    width: calc(33.333% - 10px);
+    margin-bottom: 15px;
+  }
+  .gallery-item figure {
+    margin: 0;
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+
 <section>
     <!-- 갤러리 -->
     <div id="area6" idx="6">
         <section class="gallery line" id="gallery">
-            <div class="area">
-                <!-- 갤러리 타입01 / 바둑판 썸네일 확대 -->
-                        <figure>
-                            <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+            <div class="area gallery-container">
+                <!-- 갤러리 아이템 -->
+                <div class="gallery-item">
+                    <figure>
+                        <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                             <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
-                            </a>
-                        </figure>
-                         <figure>
-                            <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                        </a>
+                    </figure>
+                </div>
+                <div class="gallery-item">
+                    <figure>
+                        <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                             <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
-                            </a>
-                        </figure>
+                        </a>
+                    </figure>
+                </div>
+                <div class="gallery-item">
+                    <figure>
+                        <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                            <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
+                        </a>
+                    </figure>
+                </div>
+                <!-- Add more gallery items as needed -->
+            </div>
                 <!-- 갤러리 확대 -->
                 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
                     <div class="pswp__bg"></div>
