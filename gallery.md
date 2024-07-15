@@ -4,7 +4,6 @@ title: Gallery
 permalink: /gallery/
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
