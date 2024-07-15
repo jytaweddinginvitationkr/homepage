@@ -4,12 +4,6 @@ title: Gallery
 permalink: /gallery/
 ---
 
----
-layout: description
-title: Gallery
-permalink: /gallery/
----
-
 <style>
   .gallery-container {
     display: flex;
