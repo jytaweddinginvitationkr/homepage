@@ -82,9 +82,9 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
+                        <a href="0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg"
                             class="setimgsize" itemprop="contentUrl" data-size="2000x1333">
-                            <img src="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
+                            <img src="0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg"
                                 class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
