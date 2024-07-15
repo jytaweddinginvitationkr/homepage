@@ -12,11 +12,24 @@ permalink: /gallery/
                 <!-- 갤러리 타입01 / 바둑판 썸네일 확대 -->
                 <div class="gallery_type01">
                     <div class="skin_gallery">
-                        <figure>
-                            <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
-                            <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
-                            </a>
-                        </figure>
+                    <div class="gallery_type01">
+                        <div class="skin_gallery">
+                                <figure>
+                                    <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                                        <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
+                                    </a> 
+                                </figure>
+                                <figure>
+                                    <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/74497fc2-7680-46ac-8223-f47e7e5f963e.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/d9118f8e-8fb6-4c02-9d4a-26ae4949a841.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                                        <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
+                                    </a> 
+                                </figure>
+                                <figure>
+                                    <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3d343f72-9cee-4081-ac16-c45037bd35b7.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/2cc0f5ad-7637-4d4a-a267-cd11a00a575c.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                                        <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
+                                    </a> 
+                                </figure>
+                                <figure>
                     </div>
                 </div>
                 <!-- 갤러리 확대 -->
