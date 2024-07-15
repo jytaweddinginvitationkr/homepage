@@ -13,71 +13,67 @@ permalink: /gallery/
   .gallery-item {
     width: calc(33.333% - 10px);
     margin-bottom: 15px;
-    position: relative; /* Ensure positioning for responsive design */
   }
   .gallery-item figure {
     margin: 0;
-    position: relative; /* Ensure positioning for responsive design */
-    overflow: hidden; /* Hide overflow for cropped thumbnails */
   }
   .gallery-item .thumb-container {
     position: relative;
     width: 100%;
-    padding-bottom: 100%; /* 1:1 aspect ratio for thumbnails */
+    padding-bottom: 100%; /* 1:1 aspect ratio */
     overflow: hidden;
   }
   .gallery-item img {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: 50%;
+    left: 50%;
+    width: auto;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and fill container */
+    transform: translate(-50%, -50%);
+  }
+  .gallery-item img.landscape {
+    height: auto;
+    width: 100%;
   }
 </style>
 
+
 <section>
-    <!-- Gallery Section -->
+    <!-- 갤러리 -->
     <div id="area6" idx="6">
         <section class="gallery line" id="gallery">
             <div class="area gallery-container">
-                <!-- Gallery Items -->
+                <!-- 갤러리 아이템 -->
                 <div class="gallery-item">
                     <figure>
-                        <div class="thumb-container">
-                            <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
-                                itemprop="contentUrl" class="setimgsize">
-                                <img src="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
-                                    class="img_frame" itemprop="thumbnail" alt="">
-                            </a>
-                        </div>
+                        <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" class="setimgsize">
+                            <div class="thumb-container">
+                                <img src="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" class="img_frame" itemprop="thumbnail" alt="Image 1">
+                            </div>
+                        </a>
                     </figure>
                 </div>
                 <div class="gallery-item">
                     <figure>
-                        <div class="thumb-container">
-                            <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
-                                itemprop="contentUrl" class="setimgsize">
-                                <img src="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
-                                    class="img_frame" itemprop="thumbnail" alt="">
-                            </a>
-                        </div>
+                        <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" class="setimgsize">
+                            <div class="thumb-container">
+                                <img src="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" class="img_frame" itemprop="thumbnail" alt="Image 2">
+                            </div>
+                        </a>
                     </figure>
                 </div>
                 <div class="gallery-item">
                     <figure>
-                        <div class="thumb-container">
-                            <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
-                                itemprop="contentUrl" class="setimgsize">
-                                <img src="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
-                                    class="img_frame" itemprop="thumbnail" alt="">
-                            </a>
-                        </div>
+                        <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" class="setimgsize">
+                            <div class="thumb-container">
+                                <img src="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" class="img_frame" itemprop="thumbnail" alt="Image 3">
+                            </div>
+                        </a>
                     </figure>
                 </div>
                 <!-- Add more gallery items as needed -->
             </div>
-            <!-- PhotoSwipe container -->
+            <!-- 갤러리 확대 -->
             <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="pswp__bg"></div>
                 <div class="pswp__scroll-wrap">
@@ -109,7 +105,7 @@ permalink: /gallery/
                     </div>
                 </div>
             </div>
-            <!-- End PhotoSwipe container -->
+            <!-- / 갤러리 확대 -->
         </section>
     </div>
 </section>
@@ -120,165 +116,185 @@ permalink: /gallery/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var initPhotoSwipeFromDOM = function (gallerySelector) {
-            var parseThumbnailElements = function (el) {
-                var thumbElements = el.childNodes,
-                    numNodes = thumbElements.length,
-                    items = [],
-                    figureEl,
-                    linkEl,
-                    item;
+var initPhotoSwipeFromDOM = function(gallerySelector) {
 
-                for (var i = 0; i < numNodes; i++) {
-                    figureEl = thumbElements[i];
+    var parseThumbnailElements = function(el) {
+        var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
+            items = [],
+            figureEl,
+            linkEl,
+            item;
 
-                    if (figureEl.nodeType !== 1) {
-                        continue;
-                    }
+        for(var i = 0; i < numNodes; i++) {
+            figureEl = thumbElements[i]; // <figure> element
 
-                    linkEl = figureEl.children[0];
-
-                    item = {
-                        src: linkEl.getAttribute('href'),
-                        w: 0,
-                        h: 0
-                    };
-
-                    if (linkEl.children.length > 0) {
-                        item.msrc = linkEl.children[0].getAttribute('src');
-                    }
-
-                    item.el = figureEl;
-
-                    items.push(item);
-                }
-
-                return items;
-            };
-
-            var closest = function closest(el, fn) {
-                return el && (fn(el) ? el : closest(el.parentNode, fn));
-            };
-
-            var onThumbnailsClick = function (e) {
-                e = e || window.event;
-                e.preventDefault ? e.preventDefault() : e.returnValue = false;
-
-                var eTarget = e.target || e.srcElement;
-
-                var clickedListItem = closest(eTarget, function (el) {
-                    return (el.tagName && el.tagName.toUpperCase() === 'DIV');
-                });
-
-                if (!clickedListItem) {
-                    return;
-                }
-
-                var clickedGallery = clickedListItem.parentNode,
-                    childNodes = clickedListItem.parentNode.childNodes,
-                    numChildNodes = childNodes.length,
-                    nodeIndex = 0,
-                    index;
-
-                for (var i = 0; i < numChildNodes; i++) {
-                    if (childNodes[i].nodeType !== 1) {
-                        continue;
-                    }
-
-                    if (childNodes[i] === clickedListItem) {
-                        index = nodeIndex;
-                        break;
-                    }
-                    nodeIndex++;
-                }
-
-                if (index >= 0) {
-                    openPhotoSwipe(index, clickedGallery);
-                }
-                return false;
-            };
-
-            var photoswipeParseHash = function () {
-                var hash = window.location.hash.substring(1),
-                    params = {};
-
-                if (hash.length < 5) {
-                    return params;
-                }
-
-                var vars = hash.split('&');
-                for (var i = 0; i < vars.length; i++) {
-                    if (!vars[i]) {
-                        continue;
-                    }
-                    var pair = vars[i].split('=');
-                    if (pair.length < 2) {
-                        continue;
-                    }
-                    params[pair[0]] = pair[1];
-                }
-
-                if (params.gid) {
-                    params.gid = parseInt(params.gid, 10);
-                }
-
-                return params;
-            };
-
-            var openPhotoSwipe = function (index, galleryElement, disableAnimation, fromURL) {
-                var pswpElement = document.querySelectorAll('.pswp')[0],
-                    gallery,
-                    options,
-                    items;
-
-                items = parseThumbnailElements(galleryElement);
-
-                options = {
-                    index: index,
-                    galleryUID: galleryElement.getAttribute('data-pswp-uid'),
-                    getThumbBoundsFn: function (index) {
-                        var thumbnail = items[index].el.getElementsByTagName('img')[0],
-                            pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                            rect = thumbnail.getBoundingClientRect();
-
-                        return {
-                            x: rect.left,
-                            y: rect.top + pageYScroll,
-                            w: rect.width
-                        };
-                    }
-                };
-
-                if (fromURL) {
-                    if (options.galleryPIDs) {
-                        for (var j = 0; j < items.length; j++) {
-                            if (items[j].pid == index) {
-                                options.index = j;
-                                break;
-                            }
-                        }
-                    } else {
-                        options.index = parseInt(index, 10) - 1;
-                    }
-                }
-
-                if (disableAnimation) {
-                    options.showAnimationDuration = 0;
-                }
-
-                gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-                gallery.init();
-            };
-
-            var galleryElements = document.querySelectorAll(gallerySelector);
-
-            for (var i = 0, l = galleryElements.length; i < l; i++) {
-                galleryElements[i].setAttribute('data-pswp-uid', i + 1);
-                galleryElements[i].onclick = onThumbnailsClick;
+            if(figureEl.nodeType !== 1) {
+                continue;
             }
+
+            linkEl = figureEl.children[0]; // <a> element
+
+            item = {
+                src: linkEl.getAttribute('href'),
+                w: 0, // Placeholder, will be set later
+                h: 0  // Placeholder, will be set later
+            };
+
+            if(linkEl.children.length > 0) {
+                item.msrc = linkEl.children[0].getElementsByTagName('img')[0].getAttribute('src');
+            }
+
+            item.el = figureEl; // save link to element for getThumbBoundsFn
+
+            items.push(item);
+        }
+
+        return items;
+    };
+
+    var closest = function closest(el, fn) {
+        return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+    };
+
+    var onThumbnailsClick = function(e) {
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        var eTarget = e.target || e.srcElement;
+
+        var clickedListItem = closest(eTarget, function(el) {
+            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+        });
+
+        if(!clickedListItem) {
+            return;
+        }
+
+        var clickedGallery = clickedListItem.parentNode,
+            childNodes = clickedListItem.parentNode.childNodes,
+            numChildNodes = childNodes.length,
+            nodeIndex = 0,
+            index;
+
+        for (var i = 0; i < numChildNodes; i++) {
+            if(childNodes[i].nodeType !== 1) {
+                continue;
+            }
+
+            if(childNodes[i] === clickedListItem) {
+                index = nodeIndex;
+                break;
+            }
+            nodeIndex++;
+        }
+
+        if(index >= 0) {
+            openPhotoSwipe(index, clickedGallery);
+        }
+        return false;
+    };
+
+    var photoswipeParseHash = function() {
+        var hash = window.location.hash.substring(1),
+            params = {};
+
+        if(hash.length < 5) {
+            return params;
+        }
+
+        var vars = hash.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            if(!vars[i]) {
+                continue;
+            }
+            var pair = vars[i].split('=');
+            if(pair.length < 2) {
+                continue;
+            }
+            params[pair[0]] = pair[1];
+        }
+
+        if(params.gid) {
+            params.gid = parseInt(params.gid, 10);
+        }
+
+        return params;
+    };
+
+    var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+        var pswpElement = document.querySelectorAll('.pswp')[0],
+            gallery,
+            options,
+            items;
+
+        items = parseThumbnailElements(galleryElement);
+
+        options = {
+            index: index,
+            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+            getThumbBoundsFn: function(index) {
+                var thumbnail = items[index].el.getElementsByTagName('img')[0],
+                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                    rect = thumbnail.getBoundingClientRect();
+
+                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+            }
+
         };
 
-        initPhotoSwipeFromDOM('.gallery-container');
-    });
+        if(fromURL) {
+            if(options.galleryPIDs) {
+                for(var j = 0; j < items.length; j++) {
+                    if(items[j].pid == index) {
+                        options.index = j;
+                        break;
+                    }
+                }
+            } else {
+                options.index = parseInt(index, 10) - 1;
+            }
+        }
+
+        if(isNaN(options.index)) {
+            return;
+        }
+
+        if(disableAnimation) {
+            options.showAnimationDuration = 0;
+        }
+
+        gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+
+        // Get the original image size
+        gallery.listen('gettingData', function(index, item) {
+            if (item.w < 1 || item.h < 1) { // if dimensions are not set
+                var img = new Image(); 
+                img.onload = function() { // will get size after the image is loaded
+                    item.w = this.width; 
+                    item.h = this.height;
+                    gallery.invalidateCurrItems(); // reinit Items
+                    gallery.updateSize(true); // reinit Items
+                };
+                img.src = item.src; // let's download image
+            }
+        });
+
+        gallery.init();
+    };
+
+    var galleryElements = document.querySelectorAll(gallerySelector);
+
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        galleryElements[i].setAttribute('data-pswp-uid', i+1);
+        galleryElements[i].onclick = onThumbnailsClick;
+    }
+
+    var hashData = photoswipeParseHash();
+    if(hashData.pid && hashData.gid) {
+        openPhotoSwipe(hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true);
+    }
+};
+
+initPhotoSwipeFromDOM('.gallery');
 </script>
