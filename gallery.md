@@ -13,7 +13,7 @@ permalink: /gallery/
                 <div class="gallery_type01">
                     <div class="skin_gallery">
                         <figure>
-                            <a href="intro.jpeg" style="background: url(intro.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                            <a href="/intro.jpeg" style="background: url(/intro.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                                 <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="Sample Image">
                             </a>
                         </figure>
