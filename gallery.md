@@ -32,21 +32,21 @@ permalink: /gallery/
                 <!-- 갤러리 아이템 -->
                 <div class="gallery-item">
                     <figure>
-                        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE" style="background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                        <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" style="background: url(https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                             <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </figure>
                 </div>
                 <div class="gallery-item">
                     <figure>
-                        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE" style="background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                        <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" style="background: url(https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                             <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </figure>
                 </div>
                 <div class="gallery-item">
                     <figure>
-                        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE" style="background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltoday.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D410388&psig=AOvVaw3V-YsiVL0oG2MMUOaM0j7b&ust=1721110665619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDbroCzqIcDFQAAAAAdAAAAABAE) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                        <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp" style="background: url(https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
                             <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </figure>
