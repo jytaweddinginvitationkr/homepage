@@ -13,8 +13,8 @@ permalink: /gallery/
                 <div class="gallery_type01">
                     <div class="skin_gallery">
                         <figure>
-                            <a href="/intro.jpeg">
-                                <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="Sample Image">
+                            <a href="https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/3f8ad9cc-188c-4936-bcd8-404543f1caca.jpeg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/240313/582438/gallery/cbf36232-504f-4909-935e-20a4f7868478.jpeg) no-repeat center center" itemprop="contentUrl" data-size="800x1065.9259" class="setimgsize">
+                            <img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt="">
                             </a>
                         </figure>
                     </div>
