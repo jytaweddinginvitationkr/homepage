@@ -28,16 +28,11 @@ permalink: /gallery/
   }
   .gallery-item img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: 100%;
-    transform: translate(-50%, -50%);
-    display: block;
-  }
-  .gallery-item img.landscape {
-    height: auto;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and fill container */
   }
 </style>
 
