@@ -1,3 +1,43 @@
+---
+layout: description
+title: Gallery
+permalink: /gallery/
+---
+
+<style>
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery-item {
+    width: calc(33.333% - 10px);
+    margin-bottom: 15px;
+  }
+  .gallery-item figure {
+    margin: 0;
+  }
+  .gallery-item .thumb-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* 1:1 aspect ratio */
+    overflow: hidden;
+  }
+  .gallery-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    transform: translate(-50%, -50%);
+  }
+  .gallery-item img.landscape {
+    height: auto;
+    width: 100%;
+  }
+</style>
+
+
 <style>
   .gallery-container {
     display: flex;
