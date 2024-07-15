@@ -60,9 +60,9 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
+                        <a href="https://cvws.icloud-content.com/S/AZi9T_oJwdI5HiqDcSnOa3k7rpZt/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.JPG?o=Aj0nZX9enf5yPmO1oJ50a6oWE_op2eUy2M9ijieTsugR&v=1&z=https%3A%2F%2Fp63-content.icloud.com%3A443&x=1&a=CAogXexM-wPchSC14TctxLAUutRhdltUbZeVznwAIr48XRISZRCo9MexizIYqIvbtosyIgEAUgQ7rpZtaiWGMzzzz3x8wIIFl6ThYyD0ZuIpW1WMIuLjQnP7ZrNnvreeZoU-ciU_rozcgHN4a4GzNcRri9qbM_t59A1uj5fw3YLHRDh6qfcu23GY&e=1721054447&r=676319d2-48ac-48f8-ae64-3d225d52a615-37&s=n-FjegIRauzpRKNRxYuPs4Y6TDw"
                             class="setimgsize" itemprop="contentUrl" data-size="2000x1333">
-                            <img src="https://i.namu.wiki/i/wQ9yxNSCR44RkET-qb_5PfDOb5u7sMSuvFSsUOiWe6XuVEiUDPoUEkqEOz4JSFUzfKOcoZB60WNjlHUD4eO4yPvbqL-BJXX2M8DFTu2MxBGg79UhG0oGB06YGyFoMKdhNsu8BHgCiSqR4z8Knk9K1Q.webp"
+                            <img src="https://cvws.icloud-content.com/S/AZi9T_oJwdI5HiqDcSnOa3k7rpZt/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.JPG?o=Aj0nZX9enf5yPmO1oJ50a6oWE_op2eUy2M9ijieTsugR&v=1&z=https%3A%2F%2Fp63-content.icloud.com%3A443&x=1&a=CAogXexM-wPchSC14TctxLAUutRhdltUbZeVznwAIr48XRISZRCo9MexizIYqIvbtosyIgEAUgQ7rpZtaiWGMzzzz3x8wIIFl6ThYyD0ZuIpW1WMIuLjQnP7ZrNnvreeZoU-ciU_rozcgHN4a4GzNcRri9qbM_t59A1uj5fw3YLHRDh6qfcu23GY&e=1721054447&r=676319d2-48ac-48f8-ae64-3d225d52a615-37&s=n-FjegIRauzpRKNRxYuPs4Y6TDw"
                                 class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
