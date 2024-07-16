@@ -44,6 +44,7 @@ permalink: /gallery/
             left: 0;
             width: 100%;
             height: 100%;
+            object-fit: cover; /* Maintain aspect ratio and fill container */
         }
     </style>
 
@@ -81,7 +82,7 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2000x1333">
+                        <a href="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="900x1600">
                             <img src="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
