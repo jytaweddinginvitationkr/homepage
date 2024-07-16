@@ -95,6 +95,15 @@ permalink: /gallery/
              <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
+                        <a href="{{ '/DD89DF41-32C4-4E20-9A0C-F381DE642BC8.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
+                            <img src="{{ '/DD89DF41-32C4-4E20-9A0C-F381DE642BC8.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        </a>
+                    </div>
+                </figure>
+            </div>
+                         <div class="gallery-item">
+                <figure>
+                    <div class="thumb-container">
                         <a href="{{ '/A441AE6E-30BE-4B86-8CC2-3ABEF6694C80.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
                             <img src="{{ '/A441AE6E-30BE-4B86-8CC2-3ABEF6694C80.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
