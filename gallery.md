@@ -61,7 +61,7 @@ permalink: /gallery/
                 <figure>
                     <div class="thumb-container">
                         <a href="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg
-' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1200x630">
+' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
                             <img src="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg
 ' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
@@ -72,7 +72,7 @@ permalink: /gallery/
                 <figure>
                     <div class="thumb-container">
                         <a href="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg
-' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1080x1350">
+' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
                             <img src="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg
 ' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
@@ -82,7 +82,7 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1080x1350">
+                        <a href="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
                             <img src="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
