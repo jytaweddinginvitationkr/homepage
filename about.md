@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![img](_img/IMG_3356.jpeg)
+![img](/_img/IMG_3356.jpeg?raw=true)
 
 <div style="text-align: center;">
     <p>Request the pleasure of your company</p>
