@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div style="text-align: center;">
-    <img src="{{'/img/about.jpeg' | relative_url }} " alt="img" style="max-width: 500px; height: auto;">
+    <img src="{{'/img/about.jpeg' | relative_url }} " alt="img" style="width: 80%; max-width: 600px; height: auto;">
 </div>
 
 <div style="text-align: center;">
