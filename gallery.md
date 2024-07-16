@@ -4,6 +4,7 @@ title: Gallery
 permalink: /gallery/
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -22,19 +23,19 @@ permalink: /gallery/
         .gallery-item {
             width: calc(33.333% - 10px);
             margin-bottom: 15px;
-            position: relative; /* Ensure positioning for responsive design */
+            position: relative;
         }
 
         .gallery-item figure {
             margin: 0;
-            position: relative; /* Ensure positioning for responsive design */
-            overflow: hidden; /* Hide overflow for cropped thumbnails */
+            position: relative;
+            overflow: hidden;
         }
 
         .gallery-item .thumb-container {
             position: relative;
             width: 100%;
-            padding-bottom: 100%; /* 1:1 aspect ratio for thumbnails */
+            padding-bottom: 100%;
             overflow: hidden;
         }
 
@@ -44,7 +45,7 @@ permalink: /gallery/
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Maintain aspect ratio and fill container */
+            object-fit: cover;
         }
     </style>
 
@@ -60,10 +61,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg
-' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
-                            <img src="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg
-' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -71,10 +70,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg
-' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
-                            <img src="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg
-' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
+                            <img src="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -180,7 +177,7 @@ permalink: /gallery/
                     var eTarget = e.target || e.srcElement;
 
                     var clickedListItem = closest(eTarget, function (el) {
-                        return el.tagName && el.tagName.toUpperCase() === 'DIV';
+                        return el.tagName && el.tagName.toUpperCase() === 'FIGURE';
                     });
 
                     if (!clickedListItem) {
@@ -189,7 +186,7 @@ permalink: /gallery/
 
                     var clickedGallery = clickedListItem.parentNode;
 
-                    var index = [].indexOf.call(clickedGallery.childNodes, clickedListItem);
+                    var index = Array.prototype.indexOf.call(clickedGallery.childNodes, clickedListItem);
 
                     if (index >= 0) {
                         openPhotoSwipe(index, clickedGallery);
@@ -217,14 +214,6 @@ permalink: /gallery/
                                 y: rect.top + pageYScroll,
                                 w: rect.width
                             };
-                        },
-                        addCaptionHTMLFn: function (item, captionEl, isFake) {
-                            if (!item.title) {
-                                captionEl.children[0].innerText = '';
-                                return false;
-                            }
-                            captionEl.children[0].innerHTML = item.title + '<br/><small>Photo: ' + item.author + '</small>';
-                            return true;
                         },
                         index: index,
                         history: false,
@@ -256,10 +245,14 @@ permalink: /gallery/
                     gallery.init();
                 };
 
-                document.getElementById(gallerySelector).onclick = onThumbnailsClick;
+                var galleryElements = document.querySelectorAll(gallerySelector);
+                galleryElements.forEach(function (galleryElement, i) {
+                    galleryElement.setAttribute('data-pswp-uid', i + 1);
+                    galleryElement.onclick = onThumbnailsClick;
+                });
             };
 
-            initPhotoSwipeFromDOM('gallery');
+            initPhotoSwipeFromDOM('.gallery-container');
         });
     </script>
 </body>
