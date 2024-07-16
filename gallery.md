@@ -59,7 +59,7 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                        <a href="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="537.5x384">
                             <img src="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
@@ -68,7 +68,7 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
+                        <a href="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="323x485.5">
                             <img src="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
@@ -77,7 +77,7 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
+                        <a href="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="323x485.5">
                             <img src="{{ '/0BBC0A4C-DD02-4C4E-9A58-83F1753881A7.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
@@ -86,7 +86,7 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/249927D5-6F04-4812-A5C1-FC383F72728B.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
+                        <a href="{{ '/249927D5-6F04-4812-A5C1-FC383F72728B.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="323x485.5">
                             <img src="{{ '249927D5-6F04-4812-A5C1-FC383F72728B.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
@@ -95,7 +95,7 @@ permalink: /gallery/
              <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/DD89DF41-32C4-4E20-9A0C-F381DE642BC8.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
+                        <a href="{{ '/DD89DF41-32C4-4E20-9A0C-F381DE642BC8.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="323x485.5">
                             <img src="{{ '/DD89DF41-32C4-4E20-9A0C-F381DE642BC8.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
@@ -104,7 +104,7 @@ permalink: /gallery/
                          <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/A441AE6E-30BE-4B86-8CC2-3ABEF6694C80.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
+                        <a href="{{ '/A441AE6E-30BE-4B86-8CC2-3ABEF6694C80.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="323x485.5">
                             <img src="{{ '/A441AE6E-30BE-4B86-8CC2-3ABEF6694C80.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
