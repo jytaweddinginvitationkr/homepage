@@ -110,6 +110,33 @@ permalink: /gallery/
                     </div>
                 </figure>
             </div>
+                        <div class="gallery-item">
+                <figure>
+                    <div class="thumb-container">
+                        <a href="{{ '/249927D5-6F04-4812-A5C1-FC383F72728B.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="323x485.5">
+                            <img src="{{ '249927D5-6F04-4812-A5C1-FC383F72728B.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        </a>
+                    </div>
+                </figure>
+            </div>
+             <div class="gallery-item">
+                <figure>
+                    <div class="thumb-container">
+                        <a href="{{ '/DD89DF41-32C4-4E20-9A0C-F381DE642BC8.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="323x485.5">
+                            <img src="{{ '/DD89DF41-32C4-4E20-9A0C-F381DE642BC8.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        </a>
+                    </div>
+                </figure>
+            </div>
+                         <div class="gallery-item">
+                <figure>
+                    <div class="thumb-container">
+                        <a href="{{ '/A441AE6E-30BE-4B86-8CC2-3ABEF6694C80.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="323x485.5">
+                            <img src="{{ '/A441AE6E-30BE-4B86-8CC2-3ABEF6694C80.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        </a>
+                    </div>
+                </figure>
+            </div>
             <!-- Add more gallery items as needed -->
         </div>
     </section>
