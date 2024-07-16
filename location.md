@@ -3,8 +3,9 @@ layout: description
 title: Location
 permalink: /location/
 ---
-
-![map](mapimage.jpeg)
+<div style="text-align: center;">
+    <img src="{{'/mapimage.jpeg' | relative_url }} " alt="img" style="max-width: 50%; height: auto;">
+</div>
 
 ### LA VELA SAIGON HOTEL
 
