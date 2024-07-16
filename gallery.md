@@ -250,3 +250,5 @@ permalink: /gallery/
 </body>
 
 </html>
+
+* * *
