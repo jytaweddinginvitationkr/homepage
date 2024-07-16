@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 <div style="text-align: center;">
-    <img src="{{ '_img/IMG_3356.jpeg' | relative_url }}" alt="Description of the image" style="max-width: 100%; height: auto;">
+    <img src="{{ '/_img/IMG_3356.jpeg' | relative_url }}" alt="Description of the image" style="max-width: 100%; height: auto;">
 </div>
 
 
