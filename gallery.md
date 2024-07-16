@@ -3,8 +3,6 @@ layout: description
 title: Gallery
 permalink: /gallery/
 ---
-
-<!DOCTYPE html2>
 <html lang="en">
 
 <head>
@@ -59,8 +57,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/01.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/01.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/01.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/01.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -68,8 +66,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/02.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/02.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/02.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/02.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -77,8 +75,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/03.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/03.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/03.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/03.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -86,8 +84,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/04.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/04.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/04.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/04.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -95,8 +93,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/05.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/05.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/05.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/05.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -104,8 +102,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/06.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/06.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/06.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/06.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -113,8 +111,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/07.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/07.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/07.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/07.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -122,8 +120,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/08.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/08.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/08.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/08.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -131,8 +129,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/09.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/09.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/09.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/09.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -140,8 +138,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/10.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/10.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/10.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/10.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -149,8 +147,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/11.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/11.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/11.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/11.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -158,8 +156,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/12.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/12.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/12.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/12.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -167,8 +165,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/13.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/13.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/13.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/13.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -176,8 +174,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/14.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/14.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/14.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/14.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -185,8 +183,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/15.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/15.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/15.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/15.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -194,8 +192,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/16.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/16.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/16.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/16.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -203,8 +201,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/17.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/17.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/17.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/17.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -212,8 +210,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/18.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/18.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/18.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/18.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -221,8 +219,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/19.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/19.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/19.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/19.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -230,8 +228,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/20.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/20.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/20.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/20.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -239,13 +237,13 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/img/thumbnail/21.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="200x200">
-                            <img src="{{ '/img/galleryimage/21.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/img/galleryimage/21.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/thumbnail/21.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
             </div>
-      
+
             <!-- Add more gallery items as needed -->
         </div>
     </section>
