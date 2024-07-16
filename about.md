@@ -3,6 +3,10 @@ layout: description
 title: About
 permalink: /about/
 ---
+<div style="text-align: center;">
+    <img src="{{ '_img/IMG_3356.jpeg' | relative_url }}" alt="Description of the image" style="max-width: 100%; height: auto;">
+</div>
+
 
 <div style="text-align: center;">
     <p>Request the pleasure of your company</p>
