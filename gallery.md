@@ -4,6 +4,7 @@ title: Gallery
 permalink: /gallery/
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -111,14 +112,12 @@ permalink: /gallery/
             var initPhotoSwipeFromDOM = function (gallerySelector) {
                 var parseThumbnailElements = function (el) {
                     var thumbElements = el.querySelectorAll('.gallery-item'),
-                        numNodes = thumbElements.length,
                         items = [],
                         figureEl,
                         linkEl,
                         item;
 
-                    for (var i = 0; i < numNodes; i++) {
-                        figureEl = thumbElements[i];
+                    thumbElements.forEach(function(figureEl) {
                         linkEl = figureEl.querySelector('a');
 
                         item = {
@@ -133,7 +132,7 @@ permalink: /gallery/
                         }
 
                         items.push(item);
-                    }
+                    });
 
                     return items;
                 };
@@ -143,8 +142,7 @@ permalink: /gallery/
                 };
 
                 var onThumbnailsClick = function (e) {
-                    e = e || window.event;
-                    e.preventDefault ? e.preventDefault() : e.returnValue = false;
+                    e.preventDefault();
 
                     var eTarget = e.target || e.srcElement;
 
@@ -168,25 +166,20 @@ permalink: /gallery/
 
                 var openPhotoSwipe = function (index, galleryElement, disableAnimation, fromURL) {
                     var pswpElement = document.querySelectorAll('.pswp')[0],
-                        gallery,
-                        options,
-                        items;
+                        items = parseThumbnailElements(galleryElement),
+                        options = {
+                            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+                            getThumbBoundsFn: function (index) {
+                                var thumbnail = items[index].el.querySelector('img'),
+                                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                                    rect = thumbnail.getBoundingClientRect();
 
-                    items = parseThumbnailElements(galleryElement);
-
-                    options = {
-                        galleryUID: galleryElement.getAttribute('data-pswp-uid'),
-                        getThumbBoundsFn: function (index) {
-                            var thumbnail = items[index].el.querySelector('img'),
-                                pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                                rect = thumbnail.getBoundingClientRect();
-
-                            return { x: rect.left, y: rect.top + pageYScroll, w: rect.width };
-                        },
-                        index: index,
-                        history: false,
-                        shareEl: false
-                    };
+                                return { x: rect.left, y: rect.top + pageYScroll, w: rect.width };
+                            },
+                            index: index,
+                            history: false,
+                            shareEl: false
+                        };
 
                     if (fromURL) {
                         if (options.galleryPIDs) {
@@ -209,16 +202,16 @@ permalink: /gallery/
                         options.showAnimationDuration = 0;
                     }
 
-                    gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+                    var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
                     gallery.init();
                 };
 
                 var galleryElements = document.querySelectorAll(gallerySelector);
 
-                for (var i = 0, l = galleryElements.length; i < l; i++) {
-                    galleryElements[i].setAttribute('data-pswp-uid', i + 1);
-                    galleryElements[i].onclick = onThumbnailsClick;
-                }
+                galleryElements.forEach(function(galleryElement, i) {
+                    galleryElement.setAttribute('data-pswp-uid', i + 1);
+                    galleryElement.onclick = onThumbnailsClick;
+                });
             };
 
             initPhotoSwipeFromDOM('.gallery-container');
