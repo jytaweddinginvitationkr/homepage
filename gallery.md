@@ -5,65 +5,51 @@ permalink: /gallery/
 ---
 
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-
-    <!-- Gallery Styles -->
     <style>
         .gallery-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
         }
-
         .gallery-item {
             width: calc(33.333% - 10px);
             margin-bottom: 15px;
-            position: relative; /* Ensure positioning for responsive design */
         }
-
         .gallery-item figure {
             margin: 0;
-            position: relative; /* Ensure positioning for responsive design */
-            overflow: hidden; /* Hide overflow for cropped thumbnails */
+            position: relative;
+            overflow: hidden;
         }
-
         .gallery-item .thumb-container {
             position: relative;
             width: 100%;
-            padding-bottom: 100%; /* 1:1 aspect ratio for thumbnails */
+            padding-bottom: 100%;
             overflow: hidden;
         }
-
         .gallery-item img {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Maintain aspect ratio and fill container */
+            object-fit: cover;
         }
     </style>
-
-    <!-- PhotoSwipe Core CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css">
 </head>
-
 <body>
     <section class="gallery line" id="gallery">
         <div class="area gallery-container">
-            <!-- Gallery Items -->
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg
-' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
-                            <img src="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg
-' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/675D05B8-FB72-4C9B-8227-4F528B352116.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -71,10 +57,8 @@ permalink: /gallery/
             <div class="gallery-item">
                 <figure>
                     <div class="thumb-container">
-                        <a href="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg
-' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
-                            <img src="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg
-' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
+                        <a href="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="1295x1942">
+                            <img src="{{ '/100FB83C-3894-4252-9EF9-FBFCE3A8E8AF.jpeg' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="">
                         </a>
                     </div>
                 </figure>
@@ -88,10 +72,8 @@ permalink: /gallery/
                     </div>
                 </figure>
             </div>
-            <!-- Add more gallery items as needed -->
         </div>
 
-        <!-- PhotoSwipe container -->
         <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="pswp__bg"></div>
             <div class="pswp__scroll-wrap">
@@ -112,9 +94,6 @@ permalink: /gallery/
                             </div>
                         </div>
                     </div>
-                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                        <div class="pswp__share-tooltip"></div>
-                    </div>
                     <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
                     <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
                     <div class="pswp__caption">
@@ -123,19 +102,15 @@ permalink: /gallery/
                 </div>
             </div>
         </div>
-        <!-- End PhotoSwipe container -->
     </section>
 
-    <!-- PhotoSwipe Core JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
-
-    <!-- Init PhotoSwipe -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var initPhotoSwipeFromDOM = function (gallerySelector) {
                 var parseThumbnailElements = function (el) {
-                    var thumbElements = el.childNodes,
+                    var thumbElements = el.querySelectorAll('.gallery-item'),
                         numNodes = thumbElements.length,
                         items = [],
                         figureEl,
@@ -144,24 +119,18 @@ permalink: /gallery/
 
                     for (var i = 0; i < numNodes; i++) {
                         figureEl = thumbElements[i];
-
-                        if (figureEl.nodeType !== 1) {
-                            continue;
-                        }
-
-                        linkEl = figureEl.children[0];
+                        linkEl = figureEl.querySelector('a');
 
                         item = {
                             src: linkEl.getAttribute('href'),
                             w: parseInt(linkEl.getAttribute('data-size').split('x')[0], 10),
-                            h: parseInt(linkEl.getAttribute('data-size').split('x')[1], 10)
+                            h: parseInt(linkEl.getAttribute('data-size').split('x')[1], 10),
+                            el: figureEl
                         };
 
                         if (linkEl.children.length > 0) {
                             item.msrc = linkEl.children[0].getAttribute('src');
                         }
-
-                        item.el = figureEl;
 
                         items.push(item);
                     }
@@ -180,16 +149,16 @@ permalink: /gallery/
                     var eTarget = e.target || e.srcElement;
 
                     var clickedListItem = closest(eTarget, function (el) {
-                        return el.tagName && el.tagName.toUpperCase() === 'DIV';
+                        return el.tagName && el.tagName.toUpperCase() === 'FIGURE';
                     });
 
                     if (!clickedListItem) {
                         return;
                     }
 
-                    var clickedGallery = clickedListItem.parentNode;
+                    var clickedGallery = clickedListItem.closest('.gallery-container');
 
-                    var index = [].indexOf.call(clickedGallery.childNodes, clickedListItem);
+                    var index = Array.prototype.indexOf.call(clickedGallery.children, clickedListItem);
 
                     if (index >= 0) {
                         openPhotoSwipe(index, clickedGallery);
@@ -208,23 +177,11 @@ permalink: /gallery/
                     options = {
                         galleryUID: galleryElement.getAttribute('data-pswp-uid'),
                         getThumbBoundsFn: function (index) {
-                            var thumbnail = items[index].el.getElementsByTagName('img')[0],
+                            var thumbnail = items[index].el.querySelector('img'),
                                 pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
                                 rect = thumbnail.getBoundingClientRect();
 
-                            return {
-                                x: rect.left,
-                                y: rect.top + pageYScroll,
-                                w: rect.width
-                            };
-                        },
-                        addCaptionHTMLFn: function (item, captionEl, isFake) {
-                            if (!item.title) {
-                                captionEl.children[0].innerText = '';
-                                return false;
-                            }
-                            captionEl.children[0].innerHTML = item.title + '<br/><small>Photo: ' + item.author + '</small>';
-                            return true;
+                            return { x: rect.left, y: rect.top + pageYScroll, w: rect.width };
                         },
                         index: index,
                         history: false,
@@ -256,12 +213,16 @@ permalink: /gallery/
                     gallery.init();
                 };
 
-                document.getElementById(gallerySelector).onclick = onThumbnailsClick;
+                var galleryElements = document.querySelectorAll(gallerySelector);
+
+                for (var i = 0, l = galleryElements.length; i < l; i++) {
+                    galleryElements[i].setAttribute('data-pswp-uid', i + 1);
+                    galleryElements[i].onclick = onThumbnailsClick;
+                }
             };
 
-            initPhotoSwipeFromDOM('gallery');
+            initPhotoSwipeFromDOM('.gallery-container');
         });
     </script>
 </body>
-
 </html>
