@@ -9,6 +9,10 @@ permalink: /location/
 
 ### LA VELA SAIGON HOTEL
 
+#### 5th floor
+
+#### Jupiter Hall
+
 > [Tel: +84 (0) 28 3622 2280](tel:+8402836222280)
 > 
 > [Email: lavelahotel@lavelasaigon.com](mailto:lavelahotel@lavelasaigon.com)
