@@ -7,111 +7,22 @@ pagetype: contact
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitation and Contact</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="_sass/main.scss">
-    <style>
-        :root {
-            --background-color: white;
-            --primary-text-color: black;
-        }
-
-        body {
-            background-color: var(--background-color);
-            color: var(--primary-text-color);
-            transition: background-color 0.3s, color 0.3s;
-            font-family: Arial, sans-serif;
-        }
-
-        .mid-section-cover {
-            width: 60%;
-            margin: 50px auto;
-            text-align: center;
-        }
-
-        nav h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-
-        section {
-            margin: 20px 0;
-        }
-
-        .contact-grid, .family-grid, .remittance-grid {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        .contact-item, .family-item {
-            flex: 1 1 45%;
-            margin: 10px;
-            text-align: left;
-        }
-
-        .remittance-button {
-            padding: 10px 20px;
-            margin: 10px;
-            background-color: var(--primary-text-color);
-            color: var(--background-color);
-            border: none;
-            cursor: pointer;
-        }
-
-        .remittance-button:hover {
-            opacity: 0.8;
-        }
-
-        .account-popup {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: var(--background-color);
-            color: var(--primary-text-color);
-            padding: 20px;
-            border: 1px solid var(--primary-text-color);
-            z-index: 1000;
-        }
-
-        .popup-content {
-            text-align: center;
-        }
-
-        .close-popup {
-            margin-top: 10px;
-            padding: 5px 10px;
-            background-color: var(--primary-text-color);
-            color: var(--background-color);
-            border: none;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
     <div class="mid-section-cover">
-        <nav>
-            <h1>We are delighted to invite you to our wedding ceremony</h1>
-        </nav>
         <main class="sub-mid-section-cover">
-            <section id="invitation">
-                <h2>Invitation</h2>
-                <img id="invitation-image" src="path/to/light-invitation.jpg" alt="Invitation Image">
-                <p>We are delighted to invite you to our wedding ceremony.</p>
-            </section>
-
             <section id="contact">
                 <h2>Contact</h2>
                 <div class="contact-grid">
                     <div class="contact-item">
-                        <h3>신랑</h3>
+                        <h3>Groom</h3>
                         <a href="tel:01041351599"><img src="icons/phone.svg" alt="Call"></a>
                         <a href="sms:01041351599"><img src="icons/sms.svg" alt="SMS"></a>
                     </div>
                     <div class="contact-item">
-                        <h3>신부</h3>
+                        <h3>Bride</h3>
                         <a href="tel:01048651599"><img src="icons/phone.svg" alt="Call"></a>
                         <a href="sms:01048651599"><img src="icons/sms.svg" alt="SMS"></a>
                     </div>
@@ -122,14 +33,14 @@ pagetype: contact
                 <h2>Family</h2>
                 <div class="family-grid">
                     <div class="family-item">
-                        <h3>신랑 측 혼주</h3>
-                        <p>아버지: 김제중</p>
-                        <p>어머니: 김희원</p>
+                        <h3>Groom’s Family</h3>
+                        <p>Father: Kim Jejoong</p>
+                        <p>Mother: Kim Heewon</p>
                     </div>
                     <div class="family-item">
-                        <h3>신부 측 혼주</h3>
-                        <p>아버지: LUONG QUOC VINH</p>
-                        <p>어머니: NGUYEN TRONG ANH TUYET</p>
+                        <h3>Bride’s Family</h3>
+                        <p>Father: LUONG QUOC VINH</p>
+                        <p>Mother: NGUYEN TRONG ANH TUYET</p>
                     </div>
                 </div>
             </section>
@@ -137,8 +48,8 @@ pagetype: contact
             <section id="remittance">
                 <h2>Remittance</h2>
                 <div class="remittance-grid">
-                    <button class="remittance-button" data-idx="1">신랑 측 계좌번호</button>
-                    <button class="remittance-button" data-idx="2">신부 측 계좌번호</button>
+                    <button class="remittance-button" data-idx="1">Groom’s Bank Account</button>
+                    <button class="remittance-button" data-idx="2">Bride’s Bank Account</button>
                 </div>
             </section>
         </main>
@@ -146,19 +57,19 @@ pagetype: contact
 
     <div class="account-popup" data-idx="1">
         <div class="popup-content">
-            <h3>신랑 계좌</h3>
-            <p>카카오뱅크 (예금주: 김준영)</p>
-            <p>계좌번호: 60091037995107</p>
-            <button class="close-popup">닫기</button>
+            <h3>Groom’s Account</h3>
+            <p>KakaoBank (Account Holder: Kim Junyoung)</p>
+            <p>Account Number: 3333111781568</p>
+            <button class="close-popup">Close</button>
         </div>
     </div>
 
     <div class="account-popup" data-idx="2">
         <div class="popup-content">
-            <h3>신부 계좌</h3>
-            <p>우리은행 (예금주: LUONG THUC ANH)</p>
-            <p>계좌번호: 1002035203849</p>
-            <button class="close-popup">닫기</button>
+            <h3>Bride’s Account</h3>
+            <p>Woori Bank (Account Holder: LUONG THUC ANH)</p>
+            <p>Account Number: 1002035203849</p>
+            <button class="close-popup">Close</button>
         </div>
     </div>
 
@@ -171,7 +82,12 @@ pagetype: contact
             remittanceButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     const idx = button.getAttribute('data-idx');
-                    document.querySelector(`.account-popup[data-idx="${idx}"]`).style.display = 'block';
+                    const popup = document.querySelector(`.account-popup[data-idx="${idx}"]`);
+                    if (popup) {
+                        popup.style.display = 'flex'; // Use 'flex' to center the popup
+                    } else {
+                        console.error(`Popup with data-idx="${idx}" not found.`);
+                    }
                 });
             });
 
@@ -184,3 +100,4 @@ pagetype: contact
     </script>
 </body>
 </html>
+
