@@ -19,6 +19,8 @@ permalink: /about/
       <p></p>
     <p>at <strong><a href="{{ '/location/' | relative_url }}">La Vela Saigon</a></strong></p>
       <p></p>
+    <p>5th floor, Jupitar hall</p>
+      <p></p>
     <p>cutting of the cake is followed</p>
       <p></p>
     <p>dancing until late</p>
