@@ -7,8 +7,43 @@ pagetype: contact
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
-    <link rel="stylesheet" href="_sass/main.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation and Contact</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your compiled CSS file -->
+    <style>
+        /* Add your compiled CSS here or link to an external stylesheet */
+        .account-popup {
+            display: none; /* Hide popups by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        .popup-content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
+            text-align: center;
+        }
+
+        .close-popup {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: var(--primary-text-color);
+            color: var(--primary-background-color);
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class="mid-section-cover">
@@ -17,7 +52,7 @@ pagetype: contact
                 <h2>Contact</h2>
                 <div class="contact-grid">
                     <div class="contact-item">
-                        <h3>Groom</h3>
+                        <h3>Bridegroom</h3>
                         <a href="tel:01041351599"><img src="icons/phone.svg" alt="Call"></a>
                         <a href="sms:01041351599"><img src="icons/sms.svg" alt="SMS"></a>
                     </div>
@@ -33,12 +68,12 @@ pagetype: contact
                 <h2>Family</h2>
                 <div class="family-grid">
                     <div class="family-item">
-                        <h3>Groom’s Family</h3>
-                        <p>Father: Kim Jejoong</p>
-                        <p>Mother: Kim Heewon</p>
+                        <h3>Groom's Family</h3>
+                        <p>Father: Kim Je-jung</p>
+                        <p>Mother: Kim Hee-won</p>
                     </div>
                     <div class="family-item">
-                        <h3>Bride’s Family</h3>
+                        <h3>Bride's Family</h3>
                         <p>Father: LUONG QUOC VINH</p>
                         <p>Mother: NGUYEN TRONG ANH TUYET</p>
                     </div>
@@ -48,8 +83,8 @@ pagetype: contact
             <section id="remittance">
                 <h2>Remittance</h2>
                 <div class="remittance-grid">
-                    <button class="remittance-button" data-idx="1">Groom’s Bank Account</button>
-                    <button class="remittance-button" data-idx="2">Bride’s Bank Account</button>
+                    <button class="remittance-button" data-idx="1">Groom's Account Number</button>
+                    <button class="remittance-button" data-idx="2">Bride's Account Number</button>
                 </div>
             </section>
         </main>
@@ -57,16 +92,16 @@ pagetype: contact
 
     <div class="account-popup" data-idx="1">
         <div class="popup-content">
-            <h3>Groom’s Account</h3>
-            <p>KakaoBank (Account Holder: Kim Junyoung)</p>
-            <p>Account Number: 3333111781568</p>
+            <h3>Groom's Account</h3>
+            <p>Kakao Bank (Account Holder: Kim Jun-young)</p>
+            <p>Account Number: 60091037995107</p>
             <button class="close-popup">Close</button>
         </div>
     </div>
 
     <div class="account-popup" data-idx="2">
         <div class="popup-content">
-            <h3>Bride’s Account</h3>
+            <h3>Bride's Account</h3>
             <p>Woori Bank (Account Holder: LUONG THUC ANH)</p>
             <p>Account Number: 1002035203849</p>
             <button class="close-popup">Close</button>
@@ -74,34 +109,35 @@ pagetype: contact
     </div>
 
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
-    const remittanceButtons = document.querySelectorAll('.remittance-button');
-    const accountPopups = document.querySelectorAll('.account-popup');
-    const closePopupButtons = document.querySelectorAll('.close-popup');
+        document.addEventListener('DOMContentLoaded', () => {
+            const remittanceButtons = document.querySelectorAll('.remittance-button');
+            const accountPopups = document.querySelectorAll('.account-popup');
+            const closePopupButtons = document.querySelectorAll('.close-popup');
 
-    remittanceButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const idx = button.getAttribute('data-idx');
-            document.querySelector(`.account-popup[data-idx="${idx}"]`).style.display = 'flex';
-        });
-    });
+            remittanceButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const idx = button.getAttribute('data-idx');
+                    document.querySelector(`.account-popup[data-idx="${idx}"]`).style.display = 'flex';
+                });
+            });
 
-    closePopupButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            button.closest('.account-popup').style.display = 'none';
-        });
-    });
+            closePopupButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    button.closest('.account-popup').style.display = 'none';
+                });
+            });
 
-    // Hide all popups when clicking outside
-    accountPopups.forEach(popup => {
-        popup.addEventListener('click', (event) => {
-            if (event.target === popup) {
-                popup.style.display = 'none';
-            }
+            // Hide all popups when clicking outside
+            accountPopups.forEach(popup => {
+                popup.addEventListener('click', (event) => {
+                    if (event.target === popup) {
+                        popup.style.display = 'none';
+                    }
+                });
+            });
         });
-    });
-});
     </script>
 </body>
 </html>
+
 
