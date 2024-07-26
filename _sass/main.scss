@@ -461,3 +461,29 @@ div.highlight {
     border: none;
     cursor: pointer;
 }
+
+/* Contact and Family Sections */
+.contact-grid, .family-grid, .remittance-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-item, .family-item {
+    flex: 1 1 45%;
+    margin: 10px;
+    text-align: left;
+}
+
+.remittance-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: var(--primary-text-color);
+    color: var(--primary-background-color);
+    border: none;
+    cursor: pointer;
+}
+
+.remittance-button:hover {
+    opacity: 0.8;
+}
