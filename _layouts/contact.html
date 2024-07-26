@@ -74,29 +74,33 @@ pagetype: contact
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const remittanceButtons = document.querySelectorAll('.remittance-button');
-            const accountPopups = document.querySelectorAll('.account-popup');
-            const closePopupButtons = document.querySelectorAll('.close-popup');
+    document.addEventListener('DOMContentLoaded', () => {
+    const remittanceButtons = document.querySelectorAll('.remittance-button');
+    const accountPopups = document.querySelectorAll('.account-popup');
+    const closePopupButtons = document.querySelectorAll('.close-popup');
 
-            remittanceButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    const idx = button.getAttribute('data-idx');
-                    const popup = document.querySelector(`.account-popup[data-idx="${idx}"]`);
-                    if (popup) {
-                        popup.style.display = 'flex'; // Use 'flex' to center the popup
-                    } else {
-                        console.error(`Popup with data-idx="${idx}" not found.`);
-                    }
-                });
-            });
-
-            closePopupButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    button.closest('.account-popup').style.display = 'none';
-                });
-            });
+    remittanceButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const idx = button.getAttribute('data-idx');
+            document.querySelector(`.account-popup[data-idx="${idx}"]`).style.display = 'flex';
         });
+    });
+
+    closePopupButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            button.closest('.account-popup').style.display = 'none';
+        });
+    });
+
+    // Hide all popups when clicking outside
+    accountPopups.forEach(popup => {
+        popup.addEventListener('click', (event) => {
+            if (event.target === popup) {
+                popup.style.display = 'none';
+            }
+        });
+    });
+});
     </script>
 </body>
 </html>
