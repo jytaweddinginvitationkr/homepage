@@ -431,7 +431,7 @@ div.highlight {
 
 /* Popup */
 .account-popup {
-    display: none;
+    display: none; /* This hides the popups by default */
     position: fixed;
     top: 0;
     left: 0;
