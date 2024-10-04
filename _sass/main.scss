@@ -37,14 +37,14 @@ body {
   font-size: 1rem;
 
   @include mediaQuery(phone-width) {
-    font-size: 1rem;
+    font-size: 1.5rem;
     span {
       display: none;
     }
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.2; // Adjust this value to control line spacing
   }
