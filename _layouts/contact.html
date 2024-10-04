@@ -18,16 +18,31 @@ pagetype: contact
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0, 0, 0, 0.7); /* Optional, for a dim background effect */
+            background: rgba(0, 0, 0, 0.7); /* Dim background effect */
             justify-content: center;
             align-items: center;
         }
 
         .popup-content {
-            background: white;
+            background: white; /* Ensures the background stays white in both modes */
             padding: 20px;
             border-radius: 5px;
             text-align: center;
+            color: black; /* Sets the font color to black to contrast with the white background */
+        }
+
+        .popup-content button {
+            background-color: #f0f0f0; /* Light background for the close button */
+            color: black; /* Text color for the button */
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .popup-content button:hover {
+            background-color: #e0e0e0; /* Slightly darker on hover */
         }
     </style>
 </head>
@@ -56,7 +71,13 @@ pagetype: contact
                     <div class="family-item">
                         <h3>Groom's Family</h3>
                         <p>Father: Kim Je-jung</p>
+                        <a href="tel:+84 908501939"><img src="icons/phone.svg" alt="Call"></a>
+                        <a href="sms:+84 908501939"><img src="icons/sms.svg" alt="SMS"></a>
                         <p>Mother: Kim Hee-won</p>
+                        <a href="tel:+82 1028021599"><img src="icons/phone.svg" alt="Call"></a>
+                        <a href="sms:+82 1028021599"><img src="icons/sms.svg" alt="SMS"></a>
+                        <a href="tel:+84 931479720"><img src="icons/phone.svg" alt="Call"></a>
+                        <a href="sms:+84 931479720"><img src="icons/sms.svg" alt="SMS"></a>
                     </div>
                     <div class="family-item">
                         <h3>Bride's Family</h3>
