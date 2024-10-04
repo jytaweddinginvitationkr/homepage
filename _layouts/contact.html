@@ -9,49 +9,52 @@ pagetype: contact
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding Invitation and Contact</title>
+    <meta name="format-detection" content="telephone=no"> <!-- Disable automatic link detection for numbers -->
     <link rel="stylesheet" href="_sass/main.scss"> <!-- Link to your compiled CSS file -->
     <style>
-       .account-popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7); /* Dim background effect */
-    justify-content: center;
-    align-items: center;
-}
+        .account-popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7); /* Dim background effect */
+            justify-content: center;
+            align-items: center;
+        }
 
-.popup-content {
-    background: white; /* Ensure the background stays white in both modes */
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-    color: black; /* Ensure the default text color is black */
-}
+        .popup-content {
+            background: white; /* Ensure the background stays white in both modes */
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            color: black; /* Ensure the default text color is black */
+        }
 
-.popup-content h3,
-.popup-content p {
-    color: black; /* Ensure the text color stays black */
-    text-decoration: underline; /* Keep underline for easy copying */
-    white-space: nowrap; /* Prevent text wrapping */
-    user-select: text; /* Allow text selection for easy copy-pasting */
-}
+        .popup-content h3 {
+            color: black; /* Ensure the text color stays black */
+        }
 
-.popup-content button {
-    background-color: #f0f0f0; /* Light background for the close button */
-    color: black; /* Text color for the button */
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-}
+        .popup-content p.account-number {
+            color: black; /* Ensure the account number is black */
+            text-decoration: underline; /* Underline only for the account number */
+            white-space: nowrap; /* Prevent text wrapping */
+        }
 
-.popup-content button:hover {
-    background-color: #e0e0e0; /* Slightly darker on hover */
-}
+        .popup-content button {
+            background-color: #f0f0f0; /* Light background for the buttons */
+            color: black; /* Text color for the buttons */
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .popup-content button:hover {
+            background-color: #e0e0e0; /* Slightly darker on hover */
+        }
     </style>
 </head>
 <body>
@@ -61,7 +64,7 @@ pagetype: contact
                 <h2>Contact</h2>
                 <div class="contact-grid">
                     <div class="contact-item">
-                        <h3>Groom</h3>
+                        <h3>Bridegroom</h3>
                         <a href="tel:01041351599"><img src="icons/phone.svg" alt="Call"></a>
                         <a href="sms:01041351599"><img src="icons/sms.svg" alt="SMS"></a>
                     </div>
@@ -79,13 +82,7 @@ pagetype: contact
                     <div class="family-item">
                         <h3>Groom's Family</h3>
                         <p>Father: Kim Je-jung</p>
-                        <a href="tel:+84 908501939"><img src="icons/phone.svg" alt="Call"></a>
-                        <a href="sms:+84 908501939"><img src="icons/sms.svg" alt="SMS"></a>
                         <p>Mother: Kim Hee-won</p>
-                        <a href="tel:+82 1028021599"><img src="icons/phone.svg" alt="Call"></a>
-                        <a href="sms:+82 1028021599"><img src="icons/sms.svg" alt="SMS"></a>
-                        <a href="tel:+84 931479720"><img src="icons/phone.svg" alt="Call"></a>
-                        <a href="sms:+84 931479720"><img src="icons/sms.svg" alt="SMS"></a>
                     </div>
                     <div class="family-item">
                         <h3>Bride's Family</h3>
@@ -100,8 +97,8 @@ pagetype: contact
                 <div class="remittance-grid">
                     <button class="remittance-button" data-idx="1">Groom's Account Number</button>
                     <button class="remittance-button" data-idx="2">Bride's Account Number</button>
-                    <button class="remittance-button" data-idx="3">Groom's family's Account Number</button>
-                    <button class="remittance-button" data-idx="4">Bride's family's Account Number</button>
+                    <button class="remittance-button" data-idx="3">Groom's Account Number</button>
+                    <button class="remittance-button" data-idx="4">Bride's Account Number</button>
                 </div>
             </section>
         </main>
@@ -111,7 +108,8 @@ pagetype: contact
         <div class="popup-content">
             <h3>Groom's Account</h3>
             <p>Kakao Bank (Account Holder: Kim Jun-young)</p>
-            <p>Account Number: 60091037995107</p>
+            <p class="account-number" id="groom-account">60091037995107</p>
+            <button class="copy-button" data-account="groom-account">Copy</button> <!-- Copy button -->
             <button class="close-popup">Close</button>
         </div>
     </div>
@@ -120,25 +118,28 @@ pagetype: contact
         <div class="popup-content">
             <h3>Bride's Account</h3>
             <p>Woori Bank (Account Holder: LUONG THUC ANH)</p>
-            <p>Account Number: 1002035203849</p>
+            <p class="account-number" id="bride-account">1002035203849</p>
+            <button class="copy-button" data-account="bride-account">Copy</button> <!-- Copy button -->
             <button class="close-popup">Close</button>
         </div>
     </div>
 
-        <div class="account-popup" data-idx="3">
+        <div class="account-popup" data-idx="1">
         <div class="popup-content">
-            <h3>Groom's family's Account</h3>
-            <p>Shinhan Bank (Account Holder: Kim Jun-young)</p>
-            <p>Account Number: 60091037995107</p>
+            <h3>Groom's Account</h3>
+            <p>Kakao Bank (Account Holder: Kim Jun-young)</p>
+            <p class="account-number" id="groom-account">60091037995107</p>
+            <button class="copy-button" data-account="groom-account">Copy</button> <!-- Copy button -->
             <button class="close-popup">Close</button>
         </div>
     </div>
 
-    <div class="account-popup" data-idx="4">
+    <div class="account-popup" data-idx="2">
         <div class="popup-content">
-            <h3>Bride's family's Account</h3>
-            <p>Shinhan Bank (Account Holder: LUONG THUC ANH)</p>
-            <p>Account Number: 1002035203849</p>
+            <h3>Bride's Account</h3>
+            <p>Woori Bank (Account Holder: LUONG THUC ANH)</p>
+            <p class="account-number" id="bride-account">1002035203849</p>
+            <button class="copy-button" data-account="bride-account">Copy</button> <!-- Copy button -->
             <button class="close-popup">Close</button>
         </div>
     </div>
@@ -148,6 +149,7 @@ pagetype: contact
             const remittanceButtons = document.querySelectorAll('.remittance-button');
             const accountPopups = document.querySelectorAll('.account-popup');
             const closePopupButtons = document.querySelectorAll('.close-popup');
+            const copyButtons = document.querySelectorAll('.copy-button');
 
             remittanceButtons.forEach(button => {
                 button.addEventListener('click', () => {
@@ -159,6 +161,27 @@ pagetype: contact
             closePopupButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     button.closest('.account-popup').style.display = 'none';
+                });
+            });
+
+            // Copy account number functionality
+            copyButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const accountId = button.getAttribute('data-account');
+                    const accountText = document.getElementById(accountId).textContent;
+                    
+                    // Copy the text to the clipboard
+                    const tempInput = document.createElement('input');
+                    tempInput.style.position = 'absolute';
+                    tempInput.style.left = '-9999px';
+                    document.body.appendChild(tempInput);
+                    tempInput.value = accountText;
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    
+                    // Show a confirmation or feedback (optional)
+                    alert("Account number copied to clipboard!");
                 });
             });
 
