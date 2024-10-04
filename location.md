@@ -23,6 +23,6 @@ permalink: /location/
 
 
 ```js
-JUST TAKE TAXI PLZ
+We look forward to celebrating with you! Join us at La Vela Hotel on January 11, 2025, at 5 PM for a day to remember
 ```
 * * *
