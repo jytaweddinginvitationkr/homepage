@@ -52,25 +52,34 @@ pagetype: contact
 
         /* Style remittance buttons */
         .remittance-grid {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Creates a 2x2 layout */
+            grid-gap: 10px; /* Adds spacing between the buttons */
+            justify-content: center; /* Centers the grid */
         }
 
         .remittance-button {
             padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
+            background-color: black; /* Set the button background to black */
+            color: white; /* Set text color to white */
             border: none;
             cursor: pointer;
             border-radius: 5px;
             text-align: center;
-            min-width: 180px; /* Ensures all buttons have at least this width */
-            font-size: 16px;
+            min-width: 150px; /* Ensure a consistent width */
+            font-size: 14px; /* Reduce the font size slightly */
+            transition: background-color 0.3s ease;
         }
 
         .remittance-button:hover {
-            background-color: #45a049;
+            background-color: #333; /* Darken slightly on hover */
+        }
+
+        /* Responsive font adjustment */
+        @media (max-width: 768px) {
+            .remittance-button {
+                font-size: 12px; /* Reduce font size on smaller screens */
+            }
         }
     </style>
 </head>
