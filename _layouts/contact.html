@@ -24,11 +24,16 @@ pagetype: contact
         }
 
         .popup-content {
-            background: white; /* Ensures the background stays white in both modes */
+            background: white; /* Ensure the background stays white in both modes */
             padding: 20px;
             border-radius: 5px;
             text-align: center;
-            color: black; /* Sets the font color to black to contrast with the white background */
+            color: black; /* Ensure the default text color is black */
+        }
+
+        .popup-content h3,
+        .popup-content p {
+            color: black; /* Specifically sets text in <h3> and <p> tags to black */
         }
 
         .popup-content button {
@@ -92,8 +97,8 @@ pagetype: contact
                 <div class="remittance-grid">
                     <button class="remittance-button" data-idx="1">Groom's Account Number</button>
                     <button class="remittance-button" data-idx="2">Bride's Account Number</button>
-                    <button class="remittance-button" data-idx="1">Groom's family's Account Number</button>
-                    <button class="remittance-button" data-idx="2">Bride's family's Account Number</button>
+                    <button class="remittance-button" data-idx="3">Groom's family's Account Number</button>
+                    <button class="remittance-button" data-idx="4">Bride's family's Account Number</button>
                 </div>
             </section>
         </main>
@@ -117,19 +122,19 @@ pagetype: contact
         </div>
     </div>
 
-        <div class="account-popup" data-idx="1">
+        <div class="account-popup" data-idx="3">
         <div class="popup-content">
             <h3>Groom's family's Account</h3>
-            <p>Kakao Bank (Account Holder: Kim Jun-young)</p>
+            <p>Shinhan Bank (Account Holder: Kim Jun-young)</p>
             <p>Account Number: 60091037995107</p>
             <button class="close-popup">Close</button>
         </div>
     </div>
 
-    <div class="account-popup" data-idx="2">
+    <div class="account-popup" data-idx="4">
         <div class="popup-content">
             <h3>Bride's family's Account</h3>
-            <p>Woori Bank (Account Holder: LUONG THUC ANH)</p>
+            <p>Shinhan Bank (Account Holder: LUONG THUC ANH)</p>
             <p>Account Number: 1002035203849</p>
             <button class="close-popup">Close</button>
         </div>
