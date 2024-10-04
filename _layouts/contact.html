@@ -11,44 +11,47 @@ pagetype: contact
     <title>Wedding Invitation and Contact</title>
     <link rel="stylesheet" href="_sass/main.scss"> <!-- Link to your compiled CSS file -->
     <style>
-        .account-popup {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.7); /* Dim background effect */
-            justify-content: center;
-            align-items: center;
-        }
+       .account-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Dim background effect */
+    justify-content: center;
+    align-items: center;
+}
 
-        .popup-content {
-            background: white; /* Ensure the background stays white in both modes */
-            padding: 20px;
-            border-radius: 5px;
-            text-align: center;
-            color: black; /* Ensure the default text color is black */
-        }
+.popup-content {
+    background: white; /* Ensure the background stays white in both modes */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: black; /* Ensure the default text color is black */
+}
 
-        .popup-content h3,
-        .popup-content p {
-            color: black; /* Specifically sets text in <h3> and <p> tags to black */
-        }
+.popup-content h3,
+.popup-content p {
+    color: black; /* Ensure the text color stays black */
+    text-decoration: underline; /* Keep underline for easy copying */
+    white-space: nowrap; /* Prevent text wrapping */
+    user-select: text; /* Allow text selection for easy copy-pasting */
+}
 
-        .popup-content button {
-            background-color: #f0f0f0; /* Light background for the close button */
-            color: black; /* Text color for the button */
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
+.popup-content button {
+    background-color: #f0f0f0; /* Light background for the close button */
+    color: black; /* Text color for the button */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 
-        .popup-content button:hover {
-            background-color: #e0e0e0; /* Slightly darker on hover */
-        }
+.popup-content button:hover {
+    background-color: #e0e0e0; /* Slightly darker on hover */
+}
     </style>
 </head>
 <body>
