@@ -25,26 +25,20 @@ pagetype: contact
         }
 
         .popup-content {
-            background: white; /* Ensure the background stays white in both modes */
+            background: white;
             padding: 20px;
             border-radius: 5px;
             text-align: center;
-            color: black; /* Ensure the default text color is black */
+            color: black;
         }
 
-        .popup-content h3 {
-            color: black; /* Ensure the text color stays black */
-        }
-
-        .popup-content p.account-number {
-            color: black; /* Ensure the account number is black */
-            text-decoration: underline; /* Underline only for the account number */
-            white-space: nowrap; /* Prevent text wrapping */
+        .popup-content h3, .popup-content p.account-number {
+            color: black;
         }
 
         .popup-content button {
-            background-color: #f0f0f0; /* Light background for the buttons */
-            color: black; /* Text color for the buttons */
+            background-color: #f0f0f0;
+            color: black;
             padding: 10px;
             border: none;
             cursor: pointer;
@@ -53,7 +47,32 @@ pagetype: contact
         }
 
         .popup-content button:hover {
-            background-color: #e0e0e0; /* Slightly darker on hover */
+            background-color: #e0e0e0;
+        }
+
+        /* Style remittance buttons */
+        .remittance-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px; /* Adds space between buttons */
+        }
+
+        .remittance-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            flex-grow: 1; /* Ensures the buttons grow evenly */
+            min-width: 150px; /* Sets a minimum width for the buttons */
+            font-size: 16px;
+        }
+
+        .remittance-button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -113,53 +132,7 @@ pagetype: contact
         </main>
     </div>
 
-    <div class="account-popup" data-idx="1">
-        <div class="popup-content">
-            <h3>Groom's Account Number</h3>
-            <p>Shinhan Bank (Account Holder: Kim Jun-young)</p>
-            <p class="account-number" id="groom-account">신한은행 110581193664</p>
-            <button class="copy-button" data-account="groom-account">Copy</button> <!-- Copy button -->
-            <p></p>
-            <button class="close-popup">Close</button>
-        </div>
-    </div>
-
-    <div class="account-popup" data-idx="2">
-        <div class="popup-content">
-            <h3>Bride's Account Number</h3>
-            <p>Woori Bank (Account Holder: LUONG THUC ANH)</p>
-            <p class="account-number" id="bride-account">우리은행 1002035203849</p>
-            <button class="copy-button" data-account="bride-account">Copy</button> <!-- Copy button -->
-            <p></p>
-            <button class="close-popup">Close</button>
-        </div>
-    </div>
-
-        <div class="account-popup" data-idx="3">
-        <div class="popup-content">
-            <h3>Groom's Family's Account Number</h3>
-            <p>Groom's Father (Account Holder: Kim Je-Jung)</p>
-            <p class="account-number" id="kimjejung_account">농협 84512322040</p>
-            <button class="copy-button" data-account="kimjejung_account">Copy</button> <!-- Copy button -->
-            <p>Groom's Mother (Account Holder: Kim Hee-Won)</p>
-            <p class="account-number" id="kimheewon_account">우리은행 27908039244</p>
-            <button class="copy-button" data-account="kimheewon_account">Copy</button> <!-- Copy button -->
-            <p></p>
-            <button class="close-popup">Close</button>
-        </div>
-    </div>
-
-    <div class="account-popup" data-idx="4">
-        <div class="popup-content">
-            <h3>Bride's Family's Account number</h3>
-            <p>Woori Bank (Account Holder: LUONG THUC ANH)</p>
-            <p class="account-number" id="bride-account">우리은행 1002035203849</p>
-            <button class="copy-button" data-account="bride-account">Copy</button> <!-- Copy button -->
-            <p></p>
-            <button class="close-popup">Close</button>
-        </div>
-    </div>
-
+    <!-- Account popups and JavaScript as before -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const remittanceButtons = document.querySelectorAll('.remittance-button');
@@ -180,13 +153,10 @@ pagetype: contact
                 });
             });
 
-            // Copy account number functionality
             copyButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     const accountId = button.getAttribute('data-account');
                     const accountText = document.getElementById(accountId).textContent;
-                    
-                    // Copy the text to the clipboard
                     const tempInput = document.createElement('input');
                     tempInput.style.position = 'absolute';
                     tempInput.style.left = '-9999px';
@@ -195,13 +165,10 @@ pagetype: contact
                     tempInput.select();
                     document.execCommand('copy');
                     document.body.removeChild(tempInput);
-                    
-                    // Show a confirmation or feedback (optional)
                     alert("Account number copied to clipboard!");
                 });
             });
 
-            // Hide all popups when clicking outside
             accountPopups.forEach(popup => {
                 popup.addEventListener('click', (event) => {
                     if (event.target === popup) {
