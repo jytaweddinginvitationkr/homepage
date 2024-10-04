@@ -11,7 +11,7 @@ permalink: /about/
 <div style="text-align: center;">
     <p>Request the pleasure of your company</p>
       <p></p>
-    <p>to celebrate their marriage</p>
+    <p>to celebrate our marriage</p>
       <p></p>
     <p>on <strong>Saturday 11st January, 2025</strong></p>
       <p></p>
