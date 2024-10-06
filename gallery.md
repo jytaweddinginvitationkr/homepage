@@ -266,6 +266,6 @@ permalink: /gallery/
     </section>
 </body>
 
-</html>
+
 
 * * *
