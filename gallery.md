@@ -46,12 +46,32 @@ permalink: /gallery/
             object-fit: cover;
             cursor: pointer;
         }
+
+        /* Blank placeholder for centering */
+        .blank-gallery-item {
+            width: calc(33.333% - 10px);
+            margin-bottom: 15px;
+            visibility: hidden;
+        }
+        
     </style>
 
 </head>
 
 <body>
     <section class="gallery line" id="gallery">
+                    <!-- Add the small image with blank items on either side -->
+            <div class="blank-gallery-item"></div> <!-- Blank space on the left -->
+            <div class="gallery-item">
+                <figure>
+                    <div class="thumb-container">
+                        <a href="{{ '/img/gallery.JPG' | relative_url }}" class="setimgsize" itemprop="contentUrl" data-size="2150x1536">
+                            <img src="{{ '/img/gallery.JPG' | relative_url }}" class="img_frame" itemprop="thumbnail" alt="Little Picture">
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <div class="blank-gallery-item"></div> <!-- Blank space on the right -->
         <div class="area gallery-container">
             <!-- Gallery Items -->
             <div class="gallery-item">
