@@ -3,8 +3,6 @@ layout: description
 title: Gallery
 permalink: /gallery/
 ---
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,14 +51,14 @@ permalink: /gallery/
             margin-bottom: 15px;
             visibility: hidden;
         }
-        
     </style>
 
 </head>
 
 <body>
     <section class="gallery line" id="gallery">
-                    <!-- Add the small image with blank items on either side -->
+        <div class="area gallery-container">
+            <!-- First row with blank spaces and small picture -->
             <div class="blank-gallery-item"></div> <!-- Blank space on the left -->
             <div class="gallery-item">
                 <figure>
@@ -72,7 +70,6 @@ permalink: /gallery/
                 </figure>
             </div>
             <div class="blank-gallery-item"></div> <!-- Blank space on the right -->
-        <div class="area gallery-container">
             <!-- Gallery Items -->
             <div class="gallery-item">
                 <figure>
