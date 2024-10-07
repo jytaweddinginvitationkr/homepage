@@ -83,11 +83,26 @@ pagetype: contact
             width: 300px; /* You can adjust the width here */
             height: auto; /* Maintain the aspect ratio */
         }
-        
+
+        /* Icon styling */
+        .contact-item a img {
+            width: 40px; /* Size of the icons */
+            margin-right: 10px;
+            transition: opacity 0.3s ease;
+        }
+
+        .contact-item a img:hover {
+            opacity: 0.8; /* Add a hover effect to icons */
+        }
+
         /* Responsive font adjustment */
         @media (max-width: 768px) {
             .remittance-button {
                 font-size: 12px; /* Reduce font size on smaller screens */
+            }
+
+            .thank-you-image {
+                width: 200px; /* Adjust width for smaller screens */
             }
         }
     </style>
@@ -99,14 +114,30 @@ pagetype: contact
                 <h2>Contact</h2>
                 <div class="contact-grid">
                     <div class="contact-item">
-                        <h3>Groom : Junyoung Kim</h3>
-                        <a href="tel:+821041351599">Call</a>
-                        <a href="sms:+821041351599">SMS</a>
+                        <h3>Groom: Junyoung Kim</h3>
+                        <!-- Replace text with icons for call, SMS, and email -->
+                        <a href="tel:+821041351599">
+                            <img src="/homepage/img/callicon.JPG" alt="Call">
+                        </a>
+                        <a href="sms:+821041351599">
+                            <img src="/homepage/img/mmsicon.JPG" alt="SMS">
+                        </a>
+                        <a href="mailto:tyjy1825@gmail.com">
+                            <img src="/homepage/img/mailicon.JPG" alt="Email">
+                        </a>
                     </div>
                     <div class="contact-item">
-                        <h3>Bride : Luong Thuc Anh</h3>
-                        <a href="tel:+821048651599">Call</a>
-                        <a href="sms:+821048651599">SMS</a>
+                        <h3>Bride: Luong Thuc Anh</h3>
+                        <!-- Replace text with icons for call, SMS, and email -->
+                        <a href="tel:+821048651599">
+                            <img src="/homepage/img/callicon.JPG" alt="Call">
+                        </a>
+                        <a href="sms:+821048651599">
+                            <img src="/homepage/img/mmsicon.JPG" alt="SMS">
+                        </a>
+                        <a href="mailto:example@example.com">
+                            <img src="/homepage/img/mailicon.JPG" alt="Email">
+                        </a>
                     </div>
                 </div>
             </section>
