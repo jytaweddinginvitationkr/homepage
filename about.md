@@ -28,7 +28,7 @@ permalink: /about/
     <p>축복해주시면 감사하겠습니다</p>
       <p></p>
     <p>장소 : <strong><a href="{{ '/location/' | relative_url }}">La Vela Saigon</a></strong></p>
-    <p>시간 : 2025년 1월 11일, 오후 7시
+    <p>시간 : 2025년 1월 11일, 오후 7시</p>
       <p></p>
 </div>
 
